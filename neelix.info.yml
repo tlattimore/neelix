@@ -1,0 +1,13 @@
+name: Neelix
+type: theme
+description: An example base theme for testing drupal-sass-breakpoint.
+core: 8.x
+base theme: classy
+libraries:
+  - breathy/global-styling
+regions:
+  header: Header
+  content: Content
+  sidebar_first: First sidebar
+  sidebar_second: Second sidebar
+  footer: Footer

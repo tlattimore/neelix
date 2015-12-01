@@ -1,0 +1,7 @@
+@import "drupal-sass-breakpoints";
+
+body {
+  @include media(medium) {
+    content: "This is content at the 'medium' media query";
+  }
+}
